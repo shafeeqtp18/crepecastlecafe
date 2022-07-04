@@ -723,7 +723,13 @@ button:focus{
 }
 .f-social li a {
     font-size: 25px;
-    color: rgba(255, 255, 255, 0.9);
+    color: rgba(255, 254, 254, 0.9);
+	margin-right: 10px;
+}
+.f-social li b {
+    size: 40px;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.9);
 	margin-right: 10px;
 }
 
@@ -1357,6 +1363,92 @@ blockquote {
     transition: opacity 0.2s ease-out;
 	font-size: 30px;
 }
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
+.blink{
+    width: 230pxpx;
+    height: 12px;
+   
+    padding: 4px;	
+    text-align: center;
+    line-height: 25px;
+}
+span{
+    font-size: 25px;
+    font-family: arial;
+font-weight: bold;
+    color: rgb(24, 8, 250);
+    animation: blink 1s linear infinite;
+}
+@keyframes blink{
+0%{opacity: 0;}
+50%{opacity: .5;}
+100%{opacity: 1;}
+}
+.blink .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    margin-left: -60px;
+  }
+  
+  .blink:hover .tooltiptext {
+    visibility: visible;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
